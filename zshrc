@@ -56,23 +56,23 @@ ZSH_CUSTOM=~/zsh-config/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
-  colorize
-  npm
+	git
+	colorize
+	npm
 	nvm
-  pip
-  python
-  pylint
-  ssh-agent
-  systemd
-  tmux
+	pip
+	python
+	pylint
+	ssh-agent
+	systemd
+	tmux
 	zsh-completions
 	zsh-completions-git
- 	zsh-syntax-highlighting
+	zsh-syntax-highlighting
 )
 
+
 source $ZSH/oh-my-zsh.sh
-source $ZSH_CUSTOM/config.zsh
 
 # User configuration
 
@@ -103,4 +103,3 @@ source $ZSH_CUSTOM/config.zsh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-xrdb -merge ~/.Xresources
