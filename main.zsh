@@ -39,9 +39,7 @@ ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
+# Uncomment the following line if you want to disable marking untracked files # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
@@ -68,6 +66,8 @@ plugins=(
   ssh-agent
   systemd
   tmux
+	zsh-completions
+	zsh-completions-git
  	zsh-syntax-highlighting
 )
 
